@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/xposedornot",
   "title": "Xposedornot",
   "description": "XposedOrNot MCP — free breach-exposure lookup by email.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/xposedornot",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-xposedornot",
