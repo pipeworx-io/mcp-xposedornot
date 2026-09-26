@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-xposedornot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "XposedOrNot MCP — free breach-exposure lookup by email.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-f67e1053bfe23f23109c9b33c49c70ad8a513080cb56fc0999b2c022ecd8b628",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-df558a1ebd7ab7054f6766330c19904f4ffc2ad197e034e5413c4e04cc7baf2b",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
