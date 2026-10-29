@@ -1,0 +1,34 @@
+[
+  {
+    "name": "email_breaches",
+    "description": "Check whether an email address appears in known data breaches. Free lookup, no key: returns the list of breach names the address was found in (e.g. LinkedIn, Adobe), or breached=false. For per-breach detail — what data was exposed, dates, risk score — follow up with email_breach_analytics.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "description": "Email address to check, e.g. \"user@example.com\"."
+        }
+      },
+      "required": [
+        "email"
+      ]
+    }
+  },
+  {
+    "name": "email_breach_analytics",
+    "description": "Detailed breach-exposure report for an email address: every breach it appears in with breach date, records affected and which data classes leaked (passwords, phone numbers, addresses), plus an overall risk score/label, password-strength breakdown and paste exposures. Free, no key.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "description": "Email address to analyze, e.g. \"user@example.com\"."
+        }
+      },
+      "required": [
+        "email"
+      ]
+    }
+  }
+]
