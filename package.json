@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-xposedornot",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "XposedOrNot MCP — free breach-exposure lookup by email.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "xposedornot",
     "gatewaySlug": "xposedornot",
-    "sourceHash": "v1-564aa9a1d62041a843ccfc5017de09f800ffe50075911be2c143d7079dd79c7a",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-09b8b0949ee1d51dba812873934e3bb7d7f7de77b74a2b73b0e84e6b50574239",
+    "sourceCommit": "78b905fa3a6880dfb85c79150f4bffe8cf50ef00"
   }
 }
